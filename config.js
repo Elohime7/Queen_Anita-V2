@@ -16,8 +16,8 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Kinshasa";
 global.github = process.env.GITHUB || "https://github.com/Elohime7";
 global.gurl = process.env.GURL || "coming.soon";
 global.website = process.env.GURL || "coming.soon";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg";
-global.devs = "https://t.me/gohime Hatake";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/f34aa56c21405b5a30b27.jpg";
+global.devs = "https://t.me/Gohime_hatake";
 global.sudo = process.env.SUDO || "243980635216";
 global.owner = process.env.OWNER_NUMBER || "243980635216";
 global.style = process.env.STYLE || "3";
@@ -27,7 +27,7 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://i.imgur.com/H4qeXwa.jpeg,https://telegra.ph/file/ba9ced500f9eca7db8acb.mp4";
+global.userImages = process.env.USER_IMAGES || "https://i.imgur.com/H4qeXwa.jpeg,https://telegra.ph/file/f34aa56c21405b5a30b27.jpg";
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -51,7 +51,7 @@ module.exports = {
   caption: process.env.CAPTION || "ᏢᎽᎠᏒᎾᎨᎠ™`",
   author: process.env.PACK_AUTHER || "ᏢᎽᎠᏒᎾᎨᎠ",
   packname: process.env.PACK_NAME || "gohime",
-  botname: process.env.BOT_NAME || "ᏢᎽᎠᏒᎾᎨᎠ",
+  botname: process.env.BOT_NAME || "ᏢᎽᎠᏒᎾᎨᎠ ᎿᏒᎾᎨᏕ",
   ownername: process.env.OWNER_NAME || "ᏒᎽᎠᎬᏒ ᏰᏝᎯᏃᎬ",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
